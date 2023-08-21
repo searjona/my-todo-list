@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  align-items: center;
+  background-color: #70A288;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.app-wrapper {
+  background-color: #12343b;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 3px 6px 40px #000;
+  margin-bottom: 10px;
+  min-height: 650px;
+  min-width: 450px;
+  padding: 30px;
+}
+
+.header h1 {
+  color: #fff;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.task-input {
+  background-color: #000000;
+  border: 1px solid #c89666;
+  border-radius: 10px;
+  color: #ccc;
+  font-size: 20px;
+  margin-right: 25px;
+  outline: none;
+  padding: 15px;
+  width: 260px;
+}
+
+.button-add {
+  background-color: #70A288;
+  border: 0;
+  border-radius: 10px;
+  color: #ccc;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 15px;
+  width: 70px;
+}
+
+.list-item {
+  background-color: #679436;
+  border: 1px solid #ccc;
+  border-radius: 10px;    
+  display: flex;
+  margin: 20px 0;
+  max-height: 30px;    
+  padding: 10px;
+}
+
+.button-delete {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  color: deepskyblue;
+  cursor: pointer;
+  font-size: 28px;
+  outline: none;
+  padding-left: 80px;    
+}
+
+.list {
+  background-color: transparent;
+  border: none;
+  color: #ccc;    
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+  padding-left: 15px;
+  width: 220px;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+.footer {
+  align-items: center;
+  background-color: #12343b;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.footer p {
+  color: #ccc;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.img-git {
+  height: 70px;
+  width: 90px;    
+}
+
+.img-uninorte {
+  height: 60px;
+  width: 150px;
+}
