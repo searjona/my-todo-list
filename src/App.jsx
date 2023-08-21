@@ -39,7 +39,9 @@ export const App = () => {
           </p>          
         </div>
         <div>
-          <img src={imgGit} alt="Logo-github" className='img-git'/>
+          <a href="https://github.com/searjona/my-todo-list">
+            <img src={imgGit} alt="Logo-github" className='img-git'/>
+          </a>
         </div>
         <div>
           <a href="https://virtual.uninorte.edu.co/" target='_blank'>
